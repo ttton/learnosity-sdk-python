@@ -112,7 +112,7 @@ def cli(ctx,
         ):
     ''' Prepare and send requests to Learnosity APIs
 
-        If neither --file nor --request-json are specified, the request will be read from STDIN. An empty input will be defaulted to {}, which a warning.
+        If neither --file nor --request-json are specified, the request will be read from STDIN. An empty input will be defaulted to {}, with a warning.
     '''
     ctx.ensure_object(dict)
 
